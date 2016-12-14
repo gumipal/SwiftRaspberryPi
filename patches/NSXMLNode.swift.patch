@@ -1,0 +1,13 @@
+diff --git a/Foundation/NSXMLNode.swift b/Foundation/NSXMLNode.swift
+index aaf63c5..026d258 100644
+--- a/Foundation/NSXMLNode.swift
++++ b/Foundation/NSXMLNode.swift
+@@ -83,7 +83,7 @@ open class XMLNode: NSObject, NSCopying {
+         public static let nodePromoteSignificantWhitespace = Options(rawValue: 1 << 28)
+         public static let nodePreserveEmptyElements = Options([.nodeExpandEmptyElement, .nodeCompactEmptyElement])
+         public static let nodePreserveQuotes = Options([.nodeUseSingleQuotes, .nodeUseDoubleQuotes])
+-        public static let nodePreserveAll = Options(rawValue: Options([.nodePreserveNamespaceOrder, .nodePreserveAttributeOrder, .nodePreserveEntities, .nodePreservePrefixes, .nodePreserveCDATA, .nodePreserveEmptyElements, .nodePreserveQuotes, .nodePreserveWhitespace, .nodePreserveDTD, .nodePreserveCharacterReferences]).rawValue | UInt(bitPattern: 0xFFF00000))
++        public static let nodePreserveAll = Options(rawValue: Options([.nodePreserveNamespaceOrder, .nodePreserveAttributeOrder, .nodePreserveEntities, .nodePreservePrefixes, .nodePreserveCDATA, .nodePreserveEmptyElements, .nodePreserveQuotes, .nodePreserveWhitespace, .nodePreserveDTD, .nodePreserveCharacterReferences]).rawValue | UInt(bitPattern: 0x7FF00000))
+     }
+ 
+     open override func copy() -> Any {
