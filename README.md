@@ -71,5 +71,5 @@ sudo rm /usr/lib/libswift*.so
 ## Binaries
 
 Pre-built images can be found in
-https://github.com/gumipal/SwiftRaspberryPi/images
+https://github.com/gumipal/SwiftRaspberryPi/tree/master/images
 
