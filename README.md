@@ -70,6 +70,8 @@ sudo rm /usr/lib/libswift*.so
 
 ## Binaries
 
-Pre-built images can be found in
+The latest image is https://github.com/gumipal/SwiftRaspberryPi/raw/master/images/swift-3.0.2-2016-12-12-RPi23-ubuntu16.04.tar.xz
+
+All pre-built images can be found in
 https://github.com/gumipal/SwiftRaspberryPi/tree/master/images
 
